@@ -12,6 +12,16 @@ int main()
     {
         cout<<c<<"  ";
     }
-
+    cout<<endl;
+    for (int j=n-2;j>0;j--)
+    {
+        cout<<"  "<<c;
+        for(int k=0;k<j;k++)
+        cout<<"  ";
+        cout<<c<<endl;
+    }
+    for(int l=0;l<n/2;l++)
+    cout<<"  ";
+    cout<<c;
     return 0;
 }
